@@ -13,7 +13,7 @@ from email_listener import EmailListener
 
 def get_args():
     """Parse user args, get config file path"""
-    parser = argparse.ArgumentParser(description=’NewMusicBot1 app')
+    parser = argparse.ArgumentParser(description=’ NewMusicBot1 app')
     parser.add_argument('config_filename', help='Path to config JSON file.')
     parser.add_argument('blacklist_filename', help='Path to JSON blacklist file')
     parser.add_argument('results_filename', help='Path to results CSV file')
